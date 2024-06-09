@@ -1,0 +1,27 @@
+name: Ekin268 Contributions
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  update_contribution_file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Python
+        run: |
+          sudo apt-get update && sudo apt-get install python3-pip
+          pip3 install git-python
+
+      - name: Update contribution file
+        run: |
+          python3 update_contribution.py
+
+      - name: Commit changes
+        run: |
+          git add contribution.yml
+          git commit -m "Ekin268 Contributions updated"
+          git push
