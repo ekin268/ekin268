@@ -2,9 +2,9 @@
 <h1 align="center">Hi 👋, I'm Ekin</h1>
 <h3 align="center">I am high school student</h3>
 
-- 🌱 I’m currently learning **Java and Unreal Engine Blueprint**
+- 🌱 I’m currently learning **C++ and Unreal Engine Blueprint**
 
-- 💬 Ask me about **Java**
+- 💬 Ask me about **C++**
 
 - 📫 How to reach me **ekinun208@gmail.com**
 
